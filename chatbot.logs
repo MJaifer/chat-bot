@@ -1,0 +1,99 @@
+01:03:40.580 [main] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@47db50c5
+01:03:40.810 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 2 bean definitions from class path resource [applicationContext.xml]
+01:03:40.839 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+01:03:40.927 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'noOfBots' in PropertySource 'localProperties' with value of type String
+01:03:40.927 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'minutesAlive' in PropertySource 'localProperties' with value of type String
+01:03:40.928 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'frequency' in PropertySource 'localProperties' with value of type String
+01:03:40.935 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'masterController'
+01:03:40.948 [main] DEBUG com.bot.controller.MasterController - Initializing MasterController...
+01:03:40.948 [main] DEBUG com.bot.controller.MasterController - NoOf bots : 4
+01:03:40.948 [main] DEBUG com.bot.controller.MasterController - MinutesAlive : 1
+01:03:40.948 [main] DEBUG com.bot.controller.MasterController - Frequency : 10
+01:03:40.948 [main] DEBUG com.bot.controller.MasterController - Checking arguments
+01:03:40.948 [main] DEBUG com.bot.controller.MasterController - Arguments are valid
+01:03:40.948 [main] DEBUG com.bot.controller.MasterController - Initializing 4  ChatBots
+01:03:40.961 [main] DEBUG com.bot.controller.MasterController - Activating chatbots
+01:03:41.098 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot1 :Sending message "94f7d89d-05fc-4e14-96c4-f175b7eb6795" to "ChatBot 2" at Tue May 31 01:03:41 IST 2022"
+01:03:41.098 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Recieved message "94f7d89d-05fc-4e14-96c4-f175b7eb6795" from "ChatBot 1" at Tue May 31 01:03:41 IST 2022"
+01:03:41.098 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Sending message "049ba53e-5419-442d-925a-02102fa25b8c" to "ChatBot 3" at Tue May 31 01:03:41 IST 2022"
+01:03:41.098 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Recieved message "049ba53e-5419-442d-925a-02102fa25b8c" from "ChatBot 2" at Tue May 31 01:03:41 IST 2022"
+01:03:41.099 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Sending message "d1d24a07-37ec-41c2-a2b9-420727450eb9" to "ChatBot 1" at Tue May 31 01:03:41 IST 2022"
+01:03:41.099 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot1 :Recieved message "d1d24a07-37ec-41c2-a2b9-420727450eb9" from "ChatBot 3" at Tue May 31 01:03:41 IST 2022"
+01:03:41.099 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot4 :Sending message "d1f3e56d-087b-4a79-a76e-b3737c611a11" to "ChatBot 1" at Tue May 31 01:03:41 IST 2022"
+01:03:41.099 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot1 :Recieved message "d1f3e56d-087b-4a79-a76e-b3737c611a11" from "ChatBot 4" at Tue May 31 01:03:41 IST 2022"
+01:03:47.106 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot1 :Sending message "4276ca77-badb-4716-a5c5-82d7480c3ecd" to "ChatBot 2" at Tue May 31 01:03:47 IST 2022"
+01:03:47.106 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Recieved message "4276ca77-badb-4716-a5c5-82d7480c3ecd" from "ChatBot 1" at Tue May 31 01:03:47 IST 2022"
+01:03:47.106 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Sending message "ad7ab985-2085-46c7-9327-62330bef1823" to "ChatBot 3" at Tue May 31 01:03:47 IST 2022"
+01:03:47.106 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Recieved message "ad7ab985-2085-46c7-9327-62330bef1823" from "ChatBot 2" at Tue May 31 01:03:47 IST 2022"
+01:03:47.106 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Sending message "b3162dd6-9e1b-4270-b0be-5e29d304f82b" to "ChatBot 2" at Tue May 31 01:03:47 IST 2022"
+01:03:47.106 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Recieved message "b3162dd6-9e1b-4270-b0be-5e29d304f82b" from "ChatBot 3" at Tue May 31 01:03:47 IST 2022"
+01:03:47.106 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot4 :Sending message "be8ceedf-c9c9-4e07-b907-6cbdd9308201" to "ChatBot 2" at Tue May 31 01:03:47 IST 2022"
+01:03:47.107 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Recieved message "be8ceedf-c9c9-4e07-b907-6cbdd9308201" from "ChatBot 4" at Tue May 31 01:03:47 IST 2022"
+01:03:53.110 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot1 :Sending message "b9d4b80e-cd6e-47de-97b7-1b84584c58db" to "ChatBot 2" at Tue May 31 01:03:53 IST 2022"
+01:03:53.110 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Recieved message "b9d4b80e-cd6e-47de-97b7-1b84584c58db" from "ChatBot 1" at Tue May 31 01:03:53 IST 2022"
+01:03:53.110 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Sending message "a823e393-f08e-4484-acd5-b6bcd807d1ab" to "ChatBot 1" at Tue May 31 01:03:53 IST 2022"
+01:03:53.110 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot1 :Recieved message "a823e393-f08e-4484-acd5-b6bcd807d1ab" from "ChatBot 2" at Tue May 31 01:03:53 IST 2022"
+01:03:53.110 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Sending message "314522de-a39b-4dfd-abab-7a43b908ac1b" to "ChatBot 1" at Tue May 31 01:03:53 IST 2022"
+01:03:53.110 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot1 :Recieved message "314522de-a39b-4dfd-abab-7a43b908ac1b" from "ChatBot 3" at Tue May 31 01:03:53 IST 2022"
+01:03:53.110 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot4 :Sending message "bdaf35ce-944e-4b7d-8452-ad4388d8deef" to "ChatBot 3" at Tue May 31 01:03:53 IST 2022"
+01:03:53.110 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Recieved message "bdaf35ce-944e-4b7d-8452-ad4388d8deef" from "ChatBot 4" at Tue May 31 01:03:53 IST 2022"
+01:03:59.116 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot1 :Sending message "d43cf4a8-fcba-449e-aba2-725ed0a0f2b3" to "ChatBot 3" at Tue May 31 01:03:59 IST 2022"
+01:03:59.116 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Recieved message "d43cf4a8-fcba-449e-aba2-725ed0a0f2b3" from "ChatBot 1" at Tue May 31 01:03:59 IST 2022"
+01:03:59.116 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Sending message "f2a5f80c-d7d5-4258-9905-0d9a49376540" to "ChatBot 3" at Tue May 31 01:03:59 IST 2022"
+01:03:59.116 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Recieved message "f2a5f80c-d7d5-4258-9905-0d9a49376540" from "ChatBot 2" at Tue May 31 01:03:59 IST 2022"
+01:03:59.116 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Sending message "db85854d-71ca-42a1-823c-ea76929ac090" to "ChatBot 2" at Tue May 31 01:03:59 IST 2022"
+01:03:59.116 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Recieved message "db85854d-71ca-42a1-823c-ea76929ac090" from "ChatBot 3" at Tue May 31 01:03:59 IST 2022"
+01:03:59.116 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot4 :Sending message "13d85df7-9311-42de-b08c-4fb0ee85441b" to "ChatBot 2" at Tue May 31 01:03:59 IST 2022"
+01:03:59.116 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Recieved message "13d85df7-9311-42de-b08c-4fb0ee85441b" from "ChatBot 4" at Tue May 31 01:03:59 IST 2022"
+01:04:05.126 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot1 :Sending message "3b227101-493d-40f8-b6c3-20301b6038ab" to "ChatBot 3" at Tue May 31 01:04:05 IST 2022"
+01:04:05.126 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Recieved message "3b227101-493d-40f8-b6c3-20301b6038ab" from "ChatBot 1" at Tue May 31 01:04:05 IST 2022"
+01:04:05.127 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Sending message "6c57ff17-6004-40c2-a418-24f120d683cf" to "ChatBot 1" at Tue May 31 01:04:05 IST 2022"
+01:04:05.127 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot1 :Recieved message "6c57ff17-6004-40c2-a418-24f120d683cf" from "ChatBot 2" at Tue May 31 01:04:05 IST 2022"
+01:04:05.127 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Sending message "f384ce79-db03-48eb-9838-48f9d374ade8" to "ChatBot 2" at Tue May 31 01:04:05 IST 2022"
+01:04:05.127 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Recieved message "f384ce79-db03-48eb-9838-48f9d374ade8" from "ChatBot 3" at Tue May 31 01:04:05 IST 2022"
+01:04:05.127 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot4 :Sending message "667ac109-3cac-48ac-a9b8-5a9e8d240f33" to "ChatBot 1" at Tue May 31 01:04:05 IST 2022"
+01:04:05.127 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot1 :Recieved message "667ac109-3cac-48ac-a9b8-5a9e8d240f33" from "ChatBot 4" at Tue May 31 01:04:05 IST 2022"
+01:04:11.139 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot1 :Sending message "0765a3b9-53c0-425d-8255-7cef71822ef9" to "ChatBot 3" at Tue May 31 01:04:11 IST 2022"
+01:04:11.139 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Recieved message "0765a3b9-53c0-425d-8255-7cef71822ef9" from "ChatBot 1" at Tue May 31 01:04:11 IST 2022"
+01:04:11.139 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Sending message "fc6da1a2-2497-4fd1-bd77-8b9924e711fd" to "ChatBot 1" at Tue May 31 01:04:11 IST 2022"
+01:04:11.139 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot1 :Recieved message "fc6da1a2-2497-4fd1-bd77-8b9924e711fd" from "ChatBot 2" at Tue May 31 01:04:11 IST 2022"
+01:04:11.139 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Sending message "824aab08-ebb1-49e8-a613-21483baf44f8" to "ChatBot 2" at Tue May 31 01:04:11 IST 2022"
+01:04:11.139 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Recieved message "824aab08-ebb1-49e8-a613-21483baf44f8" from "ChatBot 3" at Tue May 31 01:04:11 IST 2022"
+01:04:11.139 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot4 :Sending message "027283f9-3cc8-4cf7-b6fb-7048abf790f8" to "ChatBot 2" at Tue May 31 01:04:11 IST 2022"
+01:04:11.139 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Recieved message "027283f9-3cc8-4cf7-b6fb-7048abf790f8" from "ChatBot 4" at Tue May 31 01:04:11 IST 2022"
+01:04:17.147 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot1 :Sending message "25a0f26e-1e57-42fb-a4b4-cb8509546008" to "ChatBot 3" at Tue May 31 01:04:17 IST 2022"
+01:04:17.147 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Recieved message "25a0f26e-1e57-42fb-a4b4-cb8509546008" from "ChatBot 1" at Tue May 31 01:04:17 IST 2022"
+01:04:17.147 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Sending message "c3efe210-8e3a-4de2-b693-ed92fb8fd14e" to "ChatBot 1" at Tue May 31 01:04:17 IST 2022"
+01:04:17.147 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot1 :Recieved message "c3efe210-8e3a-4de2-b693-ed92fb8fd14e" from "ChatBot 2" at Tue May 31 01:04:17 IST 2022"
+01:04:17.147 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Sending message "d836dfb6-98e1-4387-95dc-daf7a1f0c869" to "ChatBot 2" at Tue May 31 01:04:17 IST 2022"
+01:04:17.147 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Recieved message "d836dfb6-98e1-4387-95dc-daf7a1f0c869" from "ChatBot 3" at Tue May 31 01:04:17 IST 2022"
+01:04:17.147 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot4 :Sending message "6399c32d-5d1e-4e3e-b3ad-a43dd194dac4" to "ChatBot 3" at Tue May 31 01:04:17 IST 2022"
+01:04:17.147 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Recieved message "6399c32d-5d1e-4e3e-b3ad-a43dd194dac4" from "ChatBot 4" at Tue May 31 01:04:17 IST 2022"
+01:04:23.158 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot1 :Sending message "b1804120-22c2-47a2-b880-7dd760abaf0c" to "ChatBot 2" at Tue May 31 01:04:23 IST 2022"
+01:04:23.158 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Recieved message "b1804120-22c2-47a2-b880-7dd760abaf0c" from "ChatBot 1" at Tue May 31 01:04:23 IST 2022"
+01:04:23.158 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Sending message "c310e405-970b-4366-be97-441cc06db38d" to "ChatBot 1" at Tue May 31 01:04:23 IST 2022"
+01:04:23.158 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot1 :Recieved message "c310e405-970b-4366-be97-441cc06db38d" from "ChatBot 2" at Tue May 31 01:04:23 IST 2022"
+01:04:23.158 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Sending message "ea5432ba-4cf4-4e16-99c8-7f310cc58f00" to "ChatBot 1" at Tue May 31 01:04:23 IST 2022"
+01:04:23.158 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot1 :Recieved message "ea5432ba-4cf4-4e16-99c8-7f310cc58f00" from "ChatBot 3" at Tue May 31 01:04:23 IST 2022"
+01:04:23.159 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot4 :Sending message "77dfccb4-7e41-44cc-81d5-7a7bc0444241" to "ChatBot 3" at Tue May 31 01:04:23 IST 2022"
+01:04:23.159 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Recieved message "77dfccb4-7e41-44cc-81d5-7a7bc0444241" from "ChatBot 4" at Tue May 31 01:04:23 IST 2022"
+01:04:29.174 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot1 :Sending message "fe8f2d4a-43c8-4753-b5f6-25c61205668f" to "ChatBot 3" at Tue May 31 01:04:29 IST 2022"
+01:04:29.174 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Recieved message "fe8f2d4a-43c8-4753-b5f6-25c61205668f" from "ChatBot 1" at Tue May 31 01:04:29 IST 2022"
+01:04:29.174 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Sending message "a0a9a613-cc7f-4c36-94a8-0a71b28a5326" to "ChatBot 3" at Tue May 31 01:04:29 IST 2022"
+01:04:29.174 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Recieved message "a0a9a613-cc7f-4c36-94a8-0a71b28a5326" from "ChatBot 2" at Tue May 31 01:04:29 IST 2022"
+01:04:29.174 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Sending message "590d8844-a31d-4f97-8dde-bddfa2eef110" to "ChatBot 2" at Tue May 31 01:04:29 IST 2022"
+01:04:29.174 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Recieved message "590d8844-a31d-4f97-8dde-bddfa2eef110" from "ChatBot 3" at Tue May 31 01:04:29 IST 2022"
+01:04:29.175 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot4 :Sending message "cf9e6148-c0ac-44e9-90fb-63393f44ef3c" to "ChatBot 1" at Tue May 31 01:04:29 IST 2022"
+01:04:29.175 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot1 :Recieved message "cf9e6148-c0ac-44e9-90fb-63393f44ef3c" from "ChatBot 4" at Tue May 31 01:04:29 IST 2022"
+01:04:35.181 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot1 :Sending message "af459237-9d51-4770-b308-a025758aa05a" to "ChatBot 2" at Tue May 31 01:04:35 IST 2022"
+01:04:35.181 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Recieved message "af459237-9d51-4770-b308-a025758aa05a" from "ChatBot 1" at Tue May 31 01:04:35 IST 2022"
+01:04:35.181 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Sending message "8e3b6d58-0185-42dc-93e9-8e6b99f79796" to "ChatBot 3" at Tue May 31 01:04:35 IST 2022"
+01:04:35.181 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Recieved message "8e3b6d58-0185-42dc-93e9-8e6b99f79796" from "ChatBot 2" at Tue May 31 01:04:35 IST 2022"
+01:04:35.181 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Sending message "3f0b9339-faa2-48fd-ba36-454dfa5862fc" to "ChatBot 2" at Tue May 31 01:04:35 IST 2022"
+01:04:35.181 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot2 :Recieved message "3f0b9339-faa2-48fd-ba36-454dfa5862fc" from "ChatBot 3" at Tue May 31 01:04:35 IST 2022"
+01:04:35.181 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot4 :Sending message "3c9d543b-1223-4821-a189-860481e5581c" to "ChatBot 3" at Tue May 31 01:04:35 IST 2022"
+01:04:35.181 [main] DEBUG com.bot.chatbot.ChatBot - Notification from ChatBot3 :Recieved message "3c9d543b-1223-4821-a189-860481e5581c" from "ChatBot 4" at Tue May 31 01:04:35 IST 2022"
+01:04:41.193 [main] DEBUG com.bot.controller.MasterController - Suspending chatbots
+01:04:41.193 [main] DEBUG com.bot.controller.MasterController - Validating messages
+01:04:41.193 [main] DEBUG com.bot.controller.MasterController - Message validation finished.
+01:04:41.193 [main] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@47db50c5, started on Tue May 31 01:03:40 IST 2022
